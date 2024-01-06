@@ -165,21 +165,113 @@ nav ul li {
     padding: 20px;
     border-radius: 5px;
 }
-.section-card h3,p{
+.section-card h3{
     margin-top: 10px;
-    padding: 5px;
+}
+.section-card p{
+    margin-top: 5px;
+}
+
+/* start summary and resume  */
+.sammury h1{
+    text-align: center;
+    padding: 80px;
+}
+.sammury h2{
+    color: rgb(45, 45, 45);
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sammury h4,p{
+    color: gray;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.resume{
+    display: flex;
+    justify-content: space-evenly;
+}
+.resume-title{
+   padding-bottom: 10px;
+}
+.education{
+    max-width:500px;
+}
+ .master {
+    /* padding: 20px; */
+    border-bottom: 2px solid rgba(128, 128, 128, 0.183);
+ }
+ .developer{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.215);
+ }
+.expriance{
+    max-width: 500px;
+}
+.btn4{
+    background:#FD6E0A;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.download{
+    text-align: center;
+    margin: 40px;
+}
+
+
+/* footer style in css */
+
+footer{
+    display: flex;
+    padding: 100px 200px;
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    gap: 140px;
+}
+.footer-title{
+    /* font-size: 35px; */
+    /* font-weight: 700; */
+    /* padding: 10px; */
+
+}
+.contact,.massage{
+    width: 50%;
+}
+.footer-icon a{
+    margin-right: 20px;
+}
+.contact{
+    margin-top: 20px;
+}
+.massage,input{
+    display: block;
+    margin-bottom: 10px;
+}
+.massage,input,textarea{
+   padding:10px 20px;
+   margin-top: 10px;
+   width: 60%;
+   border: none;
+   border-radius: 5px;
+}
+
+.btn5{
+    background:#FD6E0A;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
 }
 
 
 
-
-
-
-
-
-
-
-
+                                                          
 
 
 
